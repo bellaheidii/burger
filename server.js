@@ -1,4 +1,6 @@
 var express = require("express");
+require("dotenv").config();
+console.log(process.env.JAWSDB_URL);
 
 var PORT = process.env.PORT || 3000;
 var app = express();
